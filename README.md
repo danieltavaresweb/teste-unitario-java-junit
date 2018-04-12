@@ -39,14 +39,18 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
 
   **@Test:** Utlizado para identificar um metodo que contém um teste específico.
   
+  
   **@Before:** Utilizado no metodo que será executado antes da execução do método se teste. Geralmente utilizado 
                 para instanciar objetos. O metodo anotado com @Before será executado
                 sempre antes de cada teste. Por padrão o nome deste método á **setUp()** 
+  
   **@After:** Métodos anotados com @After são executados após a execução do método de teste. Muito utilizado em teste de
               integração. (acessam banco de dados, abrem arquivos, abrem sockets, e etc.)
+  
   **@BeforeClass:**  São executados apenas uma vez, antes de todos os métodos de teste. Eles podem ser bastante úteis 
                      quando temos algum recurso que precisa ser inicializado apenas uma vez e que pode ser 
                      consumido por todos os métodos de teste sem a necessidade de ser reinicializado.
+  
   **@AfterClass:** é executado uma vez, após a execução do último método de teste da classe.
   
   
