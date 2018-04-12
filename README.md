@@ -95,5 +95,5 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
 ##Considerações
 - Para uma lista de objetos, o juint realiza 1+N comparações (1 - para verificar o tamanho da lista; n - para verificar cada item - conteudo - da lista) 
 - Documentação do Hancrest: https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki
-
+- https://github.com/sergsoares/teste-de-unidade-alura
 
