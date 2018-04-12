@@ -1,6 +1,6 @@
-# Teste unitário - junit-java
-  Testes automatizados em java
-  
+# Teste unitário java com Junit
+    é o teste da menor parte testável de um programa.
+  
 ## Etapas do teste
   - Parte 1: Criar o cenário de teste (inicializa os objetos)
   - Parte 2: Realiza a ação (invoca os metodos)
