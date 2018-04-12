@@ -12,7 +12,7 @@
    - Evita testes incorretos por humanos. 
    - Ajudar a encontrar erros em funcionalidades relacionadas 
    
-##Padrões e melhores práticas
+## Padrões e melhores práticas
   - A classe de teste deve ter o nome da classe a ser testada seguida da palavra "Test". (NomeDaClasseTest)
   - Colocamos a classe de teste no mesmo pacote da classe de produção. (br.com.aplicacao.service => EmissaoServiceTest)
   - Escreva um teste por ordem de equivalência. Evite testes repetidos.
@@ -35,7 +35,8 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
   - **Assert.assertTrue(resultado);**: espera-se que o resultado seja verdadeiro(true).
   - **Assert.assertFalse(resultado);**: espera-se que o resultado seja falso(false).
 
-##Anotações
+## Anotações
+
   **@Test:** Utlizado para identificar um metodo que contém um teste específico.
   
   **@Before:** Utilizado no metodo que será executado antes da execução do método se teste. Geralmente utilizado 
