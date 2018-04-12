@@ -1,4 +1,4 @@
-# junit-java
+# Teste unitário - junit-java
   Testes automatizados em java
   
 ## Etapas do teste
@@ -77,10 +77,13 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
   * Ao tomar passos realmente tão pequenos O TEMPO TODO, o programador acaba por diminuir sua produtividade.
 
 #### HANCREST: API de Teste
-      Api utilizada para melhorar a legibilidade dos seus testes. Esta Api faz uso do metodo equals que deve ser importado.
+      Api utilizada para melhorar a legibilidade dos seus testes. Esta Api faz uso do metodo 
+      equals que deve ser sobrescrito.
+  
   - Importanções:
     - import static org.hamcrest.MatcherAssert.assertThat
     - import static org.hamcrest.Matchers.*
+
 ##### Comandos
        - assertThat(ValorReal, equalTo(ValorComparado))
        - assertThat(maiores,hasItems(
@@ -90,7 +93,7 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
        ));
       
     
-###
+
 
 ##Considerações
 - Para uma lista de objetos, o juint realiza 1+N comparações (1 - para verificar o tamanho da lista; n - para verificar cada item - conteudo - da lista) 
