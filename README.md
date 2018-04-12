@@ -9,9 +9,8 @@
 
 ## Vantagem de Testes Automatizados
    - Executa muito rápido se comparado a um humano.
-   - Evita testes incorretos por humanos. A partir do momento que você escreveu o teste, ela sempre vai executar
-     o mesmo teste.
-   - Ajudar a encontrar erros em funcionalidades interelacionadas gerados após uma manutenção. 
+   - Evita testes incorretos por humanos. 
+   - Ajudar a encontrar erros em funcionalidades relacionadas 
    
 ##Padrões e melhores práticas
   - A classe de teste deve ter o nome da classe a ser testada seguida da palavra "Test". (NomeDaClasseTest)
