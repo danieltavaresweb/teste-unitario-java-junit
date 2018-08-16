@@ -35,11 +35,10 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
   - **Assert.assertTrue(resultado);**: espera-se que o resultado seja verdadeiro(true).
   - **Assert.assertFalse(resultado);**: espera-se que o resultado seja falso(false).
 
-## Anotações
+## Anotações Teste com JUnit
 
   **@Test:** Utlizado para identificar um metodo que contém um teste específico.
-  
-  
+    
   **@Before:** Utilizado no metodo que será executado antes da execução do método se teste. Geralmente utilizado 
                 para instanciar objetos. O metodo anotado com @Before será executado
                 sempre antes de cada teste. Por padrão o nome deste método á **setUp()** 
@@ -84,7 +83,7 @@ No caso, estamos passando 0.00001. Ou seja, a diferença entre o esperado e o ca
     - import static org.hamcrest.MatcherAssert.assertThat
     - import static org.hamcrest.Matchers.*
 
-##### Comandos
+##### Comandos teste com Moquito
        - assertThat(ValorReal, equalTo(ValorComparado))
        - assertThat(maiores,hasItems(
                    new Lancer('Maria', 100),
